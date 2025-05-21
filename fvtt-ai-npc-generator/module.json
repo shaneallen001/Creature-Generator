@@ -1,7 +1,7 @@
 {
   "id": "fvtt-ai-npc-generator",
   "title": "AI NPC Generator",
-  "description": "A module to generate NPCs and Monsters using AI for D&D 4.3.7.",
+  "description": "A module to generate NPCs and Monsters using AI for D&D 5e.",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "12",
@@ -15,7 +15,9 @@
     }
   ],
   "esmodules": [
-    "scripts/init.js"
+    "scripts/init.js",
+    "scripts/ai-handler.js",
+    "scripts/ui/actor-generation-form.js"
   ],
   "styles": [],
   "languages": [
@@ -26,7 +28,7 @@
     }
   ],
   "packs": [],
-  "system": ["dnd4e"],
+  "system": ["dnd5e"],
   "dependencies": [],
   "socket": false,
   "url": "",

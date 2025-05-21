@@ -7,5 +7,17 @@
   "FVTT_AI_NPC_GENERATOR.Settings.Menu.Name": "AI NPC Generator Configuration",
   "FVTT_AI_NPC_GENERATOR.Settings.Menu.Label": "API Keys",
   "FVTT_AI_NPC_GENERATOR.Settings.Menu.Hint": "Configure API keys for the AI NPC Generator module.",
-  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Title": "AI NPC Generator API Keys"
+  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Title": "AI NPC Generator API Keys",
+  "FVTT_AI_NPC_GENERATOR.ActorDirectory.ButtonLabel": "AI Generate Actor",
+  "FVTT_AI_NPC_GENERATOR.Dialog.Title": "Generate Actor with AI",
+  "FVTT_AI_NPC_GENERATOR.Dialog.Instructions": "Fill in the details below to generate a monster/NPC stat block using AI. The more detailed your description, the better the result.",
+  "FVTT_AI_NPC_GENERATOR.Dialog.MonsterName.Label": "Monster Name",
+  "FVTT_AI_NPC_GENERATOR.Dialog.CR.Label": "Challenge Rating (CR)",
+  "FVTT_AI_NPC_GENERATOR.Dialog.MonsterType.Label": "Primary Type (e.g., undead, beast)",
+  "FVTT_AI_NPC_GENERATOR.Dialog.MonsterSubtype.Label": "Subtype (optional, e.g., clown, wolf)",
+  "FVTT_AI_NPC_GENERATOR.Dialog.Alignment.Label": "Alignment (e.g., Chaotic Evil)",
+  "FVTT_AI_NPC_GENERATOR.Dialog.Description.Label": "Description & Key Features",
+  "FVTT_AI_NPC_GENERATOR.Dialog.AIProvider.Label": "AI Provider",
+  "FVTT_AI_NPC_GENERATOR.Dialog.GenerateButton": "Generate",
+  "FVTT_AI_NPC_GENERATOR.Dialog.CancelButton": "Cancel"
 }

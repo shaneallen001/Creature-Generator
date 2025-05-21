@@ -1,3 +1,5 @@
+import { ActorGenerationForm } from './ui/actor-generation-form.js';
+
 class MySettingsSubmenu extends FormApplication {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
@@ -62,7 +64,28 @@ Hooks.once('init', async function() {
         label: "FVTT_AI_NPC_GENERATOR.Settings.Menu.Label", // Placeholder
         hint: "FVTT_AI_NPC_GENERATOR.Settings.Menu.Hint", // Placeholder
         icon: "fas fa-key",
-        type: MySettingsSubmenu, // This will be defined next
+        type: MySettingsSubmenu, 
         restricted: true // Only GM can access
+    });
+
+    Hooks.on('renderActorDirectory', (app, html, data) => {
+        if (!game.user.isGM) {
+            return;
+        }
+
+        const buttonText = game.i18n.localize("FVTT_AI_NPC_GENERATOR.ActorDirectory.ButtonLabel");
+        const button = $(`<button class="ai-npc-generator-button"><i class="fas fa-brain"></i> ${buttonText}</button>`);
+        
+        button.on('click', (event) => {
+            event.preventDefault();
+            new ActorGenerationForm().render(true);
+        });
+
+        // Add button to the directory header
+        let header = html.find('.directory-header .header-actions');
+        if (header.length === 0) { // Fallback for some themes/systems
+            header = html.find('.directory-header');
+        }
+        header.append(button);
     });
 });
