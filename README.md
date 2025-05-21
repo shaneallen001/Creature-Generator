@@ -41,6 +41,12 @@ The module will use these keys to authenticate with the AI services. Currently, 
 7.  If successful, a new actor will be created in your Actors Directory, and a notification will appear.
 8.  Check the console (F12) for detailed logs, especially if you encounter issues.
 
+**A Note on AI Generation:**
+The AI strives to create a complete stat block based on your description and the D&D 5e system rules. However, for very complex creatures or highly specific abilities, the generated output may sometimes require manual review and adjustment. If you encounter issues with actor creation:
+*   Try simplifying your request or rephrasing parts of the description.
+*   Check the F12 browser console. The module logs the raw JSON received from the AI and any errors from Foundry VTT during actor creation, which can be helpful for debugging.
+*   Ensure your API key is correctly entered and has sufficient quota.
+
 ## System Compatibility
 
 *   **Foundry VTT:** Version 12 and later.
