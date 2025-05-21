@@ -32,6 +32,6 @@
   "dependencies": [],
   "socket": false,
   "url": "",
-  "manifest": "",
+  "manifest": "https://raw.githubusercontent.com/shaneallen001/Creature-Generator/refs/tags/v0.1.0/fvtt-ai-npc-generator/module.json",
   "download": ""
 }
