@@ -1,0 +1,11 @@
+{
+  "FVTT_AI_NPC_GENERATOR.Title": "AI NPC Generator",
+  "FVTT_AI_NPC_GENERATOR.Settings.GeminiAPIKey.Name": "Gemini API Key",
+  "FVTT_AI_NPC_GENERATOR.Settings.GeminiAPIKey.Hint": "Enter your Gemini API Key for AI-powered generation.",
+  "FVTT_AI_NPC_GENERATOR.Settings.OpenAIAPIKey.Name": "OpenAI API Key",
+  "FVTT_AI_NPC_GENERATOR.Settings.OpenAIAPIKey.Hint": "Enter your OpenAI API Key for AI-powered generation.",
+  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Name": "AI NPC Generator Configuration",
+  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Label": "API Keys",
+  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Hint": "Configure API keys for the AI NPC Generator module.",
+  "FVTT_AI_NPC_GENERATOR.Settings.Menu.Title": "AI NPC Generator API Keys"
+}
