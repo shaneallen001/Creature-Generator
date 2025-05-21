@@ -2,7 +2,7 @@
   "id": "fvtt-ai-npc-generator",
   "title": "AI NPC Generator",
   "description": "A module to generate NPCs and Monsters using AI for D&D 5e.",
-  "version": "0.1.0",
+  "version": "v0.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -32,6 +32,6 @@
   "dependencies": [],
   "socket": false,
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/shaneallen001/Creature-Generator/refs/tags/v0.1.0/fvtt-ai-npc-generator/module.json",
+  "manifest": "https://raw.githubusercontent.com/shaneallen001/Creature-Generator/refs/heads/main/fvtt-ai-npc-generator/module.json",
   "download": "https://github.com/shaneallen001/Creature-Generator/releases/download/v0.1.0/Creature-Generator-main.zip"
 }
