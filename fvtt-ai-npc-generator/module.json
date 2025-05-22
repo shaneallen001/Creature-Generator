@@ -2,7 +2,7 @@
   "id": "fvtt-ai-npc-generator",
   "title": "AI NPC Generator",
   "description": "A module to generate NPCs and Monsters using AI for D&D 5e.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
